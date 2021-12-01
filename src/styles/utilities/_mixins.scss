@@ -1,0 +1,70 @@
+@mixin btn {
+    font: $fontMedium 14px $fontBase;
+    height: 34px;
+    border-radius: 8px;
+    line-height: 34px;
+    padding: 0 12px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -webkit-tap-highlight-color: transparent;
+
+    &--primary {
+        background-color: $violet;
+        color: $black;
+        border: 1px solid $violet;
+
+        &:hover,
+        &:focus,
+        &:focus-within {
+            outline: none !important;
+            background-color: $light-violet;
+            border: 1px solid $light-violet;
+        }
+
+        &[disabled] {
+            background-color: #3f3f3f;
+            color: #727272;
+            border: solid 1px #3f3f3f;
+            opacity: 1;
+        }
+        &:active {
+        &:not([disabled]) {
+            background-color: #92a4c2;
+            color: $grey-darkest;
+            border: solid 1px #92a4c2;
+            }
+        }
+    }
+
+    &--secondary {
+        background-color: transparent;
+        color: $violet;
+        border: 1px solid $violet;
+
+        &:hover,
+        &:focus,
+        &:focus-within {
+            outline: none !important;
+            background-color: $light-violet;
+            border: 1px solid $light-violet;
+            color: $black;
+        }
+
+        &[disabled] {
+            background-color: #7d7d7d;
+            color: #121212;
+            border: solid 1px #7d7d7d;
+            opacity: 1;
+        }
+        
+        &:active {
+        &:not([disabled]) {
+            background-color: #dedede;
+            color: $grey-darkest;
+            border: solid 1px #dedede;
+            }
+        }
+    }
+} 
+

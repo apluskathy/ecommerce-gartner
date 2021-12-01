@@ -1,0 +1,51 @@
+// COLORS
+$white: #FFFFFF; 
+$baby-blue: #97DFFC; 
+$light-blue: #93CAF6;
+$violet-blue: #8EB5F0;
+$light-violet: #858AE3; 
+$violet: #7364D2;
+$violet-dark: #613DC1;
+$violet-bright: #5829A7;
+$violet-darkest: #461177;
+$black: #000000; 
+// Grey variables:
+$grey-darkest: #121212;
+$grey-dark: #202020;
+$grey: #191919;
+$grey-light: #707070;
+$grey-lighter: #acacac;
+$grey-lighter10: #efefef;
+// Transparent
+$transparent: transparent;
+
+// TRANSPARENCY
+$opacity-80: rgb(255, 255, 255, 0.87);
+$opacity-60: rgb(255, 255, 255, 0.6);
+$opacity-50: rgb(255, 255, 255, 0.5);
+$opacity-30: rgb(255, 255, 255, 0.33);
+$opacity-10: rgb(255, 255, 255, 0.12); 
+
+
+// COLORS IN TEMPLATE
+$primary: $white;
+$secondary: $black;
+$emphasy-primary: $opacity-80;
+$emphasy-secondary: $white;
+
+// Text
+$input-label: $opacity-60;
+$input-text: $opacity-80;
+$input-focus: $light-blue;
+$navform-text: $grey-light;
+$button-text-idp: $grey-darkest;
+$button-text-flow: $primary;
+$button-text-disabled: $opacity-30;
+
+//Components
+$navform-label: $opacity-50;
+$links: $secondary;
+$button-disabled: $grey-light;
+$form-background: $grey-dark;
+$input-background: #373737;
+$button-background-disabled: #313131;
