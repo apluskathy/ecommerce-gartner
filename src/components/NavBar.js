@@ -1,4 +1,5 @@
 import React from 'react';
+import CartWidget from './CartWidget';
 import '../styles/main.scss';
 
 export const NavBar = () => {
@@ -28,6 +29,7 @@ export const NavBar = () => {
                         <button className="btn btn--primary" type="submit">Log In</button>
                         <button className="btn btn--secondary" type="submit">Sign Up</button>
                     </form>
+                    <CartWidget />
                 </div>
             </nav>
         </>

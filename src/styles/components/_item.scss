@@ -1,0 +1,26 @@
+.item-container {
+    width: 230px;
+    height: 100px;
+    background-color: $violet-dark;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-top: 2rem;
+
+    .item-counter {
+        display: flex;
+        justify-content: space-between;
+
+        .btn {
+            @include btn;
+        }
+
+    }
+
+    .item-add {
+        margin-top: 1.5rem;
+        .btn {
+            @include btn;
+            width: 100%;
+        }
+    }
+}
