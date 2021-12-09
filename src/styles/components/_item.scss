@@ -9,6 +9,7 @@
     .item-counter {
         display: flex;
         justify-content: space-between;
+        color: $white;
 
         .btn {
             @include btn;

@@ -3,7 +3,7 @@ import ItemListContainer from '../components/ItemListContainer';
 
 const Main = () => {
     return (
-        <main>
+        <main className="main">
             <ItemListContainer greeting="Shop your next snowboard!" />
         </main>
     )

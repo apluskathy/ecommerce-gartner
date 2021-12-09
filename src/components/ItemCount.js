@@ -20,13 +20,13 @@ const ItemCount = ({stock, addCount, initial}) => {
         <div className="item-container">
             <div className="item-counter">
                 <button onClick={handleMinus} className="btn btn--round">
-                    -
+                    <span className="material-icons">remove</span>
                 </button>
 
                 <p>{counter}</p>
 
                 <button onClick={handleAdd} className="btn btn--round">
-                    +
+                    <span className="material-icons">add</span>
                 </button>
             </div>
             <div className="item-add">
